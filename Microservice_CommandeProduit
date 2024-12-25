@@ -1,0 +1,13 @@
+spring.application.name=Microservice_CommandeProduit
+spring.datasource.url=jdbc:h2:mem:test2db
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.username=bob
+spring.datasource.password=bob
+spring.h2.console.enabled=true
+spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto=create-drop
+
+
+
+# Custom property
+mes-config-ms.commandes-last=10
